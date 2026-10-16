@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "Mind",
+    "slug": "mind-offline-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#ffffff",
+    "android": { "package": "com.nandu.mind", "permissions": ["READ_EXTERNAL_STORAGE"] },
+    "ios": { "bundleIdentifier": "com.nandu.mind" },
+    "plugins": ["expo-dev-client", "expo-document-picker", ["expo-image-picker", {"photosPermission": "Pick photos to chat about."}]]
+  }
+}
